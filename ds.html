@@ -6,7 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="site/script.js"></script>
-    <script>console.log(x)</script>
+    <script>
+    console.log(x)
+    // A function is a variable in JS, we can do something like this
+    // All arguments are oprtional like Python.
+    // Global scope/Funnctional scope
+    // Global: Variables and functions defined here are available efverywhere.
+    // Functional: Variables and functions defined here are available only inside the outer function.
+
+    /*
+    Function invocation is a new execution context
+    Each execution context has:
+        - Its own variable environment 
+        - Special 'this' object
+        - Refernce to its Outer Environment
+
+    Referenced (not defined) variables will be searched for in its current scope fist. If not found, the Outer Reference will be searched,
+    this will keep going until the global scope. If not found in global scope, variable takes value undefined.
+    */
+    </script>
 </head>
 <body>
     
