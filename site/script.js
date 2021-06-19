@@ -39,6 +39,7 @@ if(true && "hello" && 1 && -1 && "false"){
 
 }
 function orderChickenWith(sideDish){
+    // Handling default values, if sideDish is false i.e. undefined then "whatever!" is the value
     sideDish = sideDish || "whatever!";
     console.log("Chicken with " + sideDish);
 }
